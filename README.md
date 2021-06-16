@@ -1,4 +1,4 @@
-# Analitica-de-datos
+# Analítica de datos
 
 En este repositorio encontrará difirentes scripts que le permitirán procesar los principales datos la las principales fuentes estadísticas de Colombia. 
 
