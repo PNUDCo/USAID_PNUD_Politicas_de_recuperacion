@@ -1,6 +1,6 @@
 # Analítica de datos
 
-En este repositorio encontrará difirentes scripts que le permitirán procesar los principales datos de  las principales fuentes estadísticas de Colombia. 
+En este repositorio encontrará difirentes scripts que le permitirán procesar los  microdatos de  las principales fuentes estadísticas de Colombia. 
 
 ## Bases disponibles 
 
