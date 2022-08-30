@@ -16,7 +16,7 @@ lapply(Pkgs, library, character.only = TRUE)
 
 ##### Set working directory
 
-setwd("C:/Users/pjara/OneDrive/PNUD trabajo/Microsim/2020/ConsolidacionGEIH/Final")
+setwd("C:/Users/OneDrive/PNUD/Microsim/2020/ConsolidacionGEIH/Final")
 
 ##### Load the data bases
 
