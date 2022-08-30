@@ -27,7 +27,7 @@ ipak(Pkgs)
 
 ##### Set working directory
 
-setwd("C:/Users/pjara/OneDrive/PNUD trabajo/Microsim/2020/ConsolidacionGEIH/Noviembre")
+setwd("C:/Users/OneDrive/PNUD trabajo/Microsim/2020/ConsolidacionGEIH")
 
 ##################################### Load data bases ########################################################
 
