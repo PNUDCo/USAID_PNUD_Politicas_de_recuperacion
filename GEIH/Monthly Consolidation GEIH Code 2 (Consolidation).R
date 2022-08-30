@@ -29,7 +29,7 @@ ipak(Pkgs)
 
 ##### Set working directory
 
-setwd("C:/Users/pjara/OneDrive/PNUD trabajo/Microsim/2020/ConsolidacionGEIH/Noviembre")
+setwd("C:/Users/OneDrive/PNUD/Microsim/2020/ConsolidacionGEIH")
 
 ################################## Load data bases ################################################################ 
 
@@ -37,21 +37,21 @@ setwd("C:/Users/pjara/OneDrive/PNUD trabajo/Microsim/2020/ConsolidacionGEIH/Novi
 
 ### Urban
 
-U_GC <- read.csv("Cabecera - Características generales (Personas).csv", 
+U_GC <- read.csv("Cabecera - CaracterÃ­sticas generales (Personas).csv", 
                             sep = ";", 
                             dec = ",") 
                             
 
 ### Rural
 
-R_GC <- read.csv("Resto - Características generales (Personas).csv", 
+R_GC <- read.csv("Resto - CaracterÃ­sticas generales (Personas).csv", 
                   sep = ";", 
                   dec = ",")
                   
 
 ### Area (13 Cities)
 
-A_GC <- read.csv("Área - Características generales (Personas).csv", 
+A_GC <- read.csv("Ãrea - CaracterÃ­sticas generales (Personas).csv", 
                  sep = ";", 
                  dec = ",") 
                  
@@ -79,7 +79,7 @@ summary(R_Un)
 
 ### Area (13 Cities)
 
-A_Un <- read.csv("Área - Desocupados.csv", 
+A_Un <- read.csv("Ãrea - Desocupados.csv", 
                  sep = ";", 
                  dec = ",") 
                  
@@ -105,7 +105,7 @@ R_LF <- read.csv("Resto - Fuerza de trabajo.csv",
 
 ### Area (13 Cities)
 
-A_LF <- read.csv("Área - Fuerza de trabajo.csv", 
+A_LF <- read.csv("Ãrea - Fuerza de trabajo.csv", 
                  sep = ";", 
                  dec = ",") 
                  
@@ -129,7 +129,7 @@ R_In <- read.csv("Resto - Inactivos.csv",
 
 ### Area (13 Cities)
 
-A_In <- read.csv("Área - Inactivos.csv", 
+A_In <- read.csv("Ãrea - Inactivos.csv", 
                  sep = ";", 
                  dec = ",") 
                  
@@ -158,7 +158,7 @@ summary(R_Em)
 
 ### Area (13 Cities)
 
-A_Em <- read.csv("Área - Ocupados.csv", 
+A_Em <- read.csv("Ãrea - Ocupados.csv", 
                  sep = ";", 
                  dec = ",") 
                  
@@ -182,7 +182,7 @@ R_OA <- read.csv("Resto - Otras actividades y ayudas en la semana.csv",
 
 ### Area (13 Cities)
 
-A_OA <- read.csv("Área - Otras actividades y ayudas en la semana.csv", 
+A_OA <- read.csv("Ãrea - Otras actividades y ayudas en la semana.csv", 
                  sep = ";", 
                  dec = ",") 
                  
@@ -207,7 +207,7 @@ R_OI <- read.csv("Resto - Otros ingresos.csv",
 
 ### Area (13 Cities)
 
-A_OI <- read.csv("Área - Otros ingresos.csv", 
+A_OI <- read.csv("Ãrea - Otros ingresos.csv", 
                  sep = ";", 
                  dec = ",") 
                  
@@ -231,7 +231,7 @@ R_HH <- read.csv("Resto - Vivienda y Hogares.csv",
 
 ### Area (13 Cities)
 
-A_HH <- read.csv("Área - Vivienda y Hogares.csv", 
+A_HH <- read.csv("Ãrea - Vivienda y Hogares.csv", 
                  sep = ";", 
                  dec = ",") 
                  
