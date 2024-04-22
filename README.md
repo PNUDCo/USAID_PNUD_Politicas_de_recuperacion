@@ -6,17 +6,19 @@ Este repositorio contiene un análisis comparativo entre diferentes modelos de a
 
 Los resultados obtenidos para cada modelo fueron los siguientes:
 
-Random Forest:
-R^2: 0.730885
-MSE: 87.169195
-XGBoost (Hipotético):
-R^2: 0.731885
-MSE: 77.169195
-Ridge Regression:
-R^2: 0.501009
-MSE: 22622720
-Alpha: 0.001
-Implicaciones de las diferencias
+╒═════════════════════╤═════════╤══════════╤════════════╕
+│ Modelo              │   R^2   │   MSE    │   Alpha    │
+╞═════════════════════╪═════════╪══════════╪════════════╡
+│ Random Forest       │ 0.730885│ 87.169195│            │
+├─────────────────────┼─────────┼──────────┼────────────┤
+│ XGBoost │ 0.731885│ 77.169195│            │
+├─────────────────────┼─────────┼──────────┼────────────┤
+│ Ridge Regression     │ 0.501009│ 22622720 │   0.001    │
+╘═════════════════════╧═════════╧══════════╧════════════╛
+
+
+
+## Implicaciones de las diferencias
 
 Las diferencias entre los modelos tienen implicaciones significativas en términos de rendimiento y capacidad predictiva:
 
