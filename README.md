@@ -6,15 +6,19 @@ Este repositorio contiene un análisis comparativo entre diferentes modelos de a
 
 Los resultados obtenidos para cada modelo fueron los siguientes:
 
-╒═════════════════════╤═════════╤══════════╤════════════╕
-│ Modelo              │   R^2   │   MSE    │   Alpha    │
-╞═════════════════════╪═════════╪══════════╪════════════╡
-│ Random Forest       │ 0.730885│ 87.169195│            │
-├─────────────────────┼─────────┼──────────┼────────────┤
-│ XGBoost │ 0.731885│ 77.169195│            │
-├─────────────────────┼─────────┼──────────┼────────────┤
-│ Ridge Regression     │ 0.501009│ 22622720 │   0.001    │
-╘═════════════════════╧═════════╧══════════╧════════════╛
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Modelo}          & \textbf{R^2} & \textbf{MSE}   & \textbf{Alpha} \\ \hline
+Random Forest            & 0.730885     & 87.169195      &               \\ \hline
+XGBoost (Hipotético)     & 0.731885     & 77.169195      &               \\ \hline
+Ridge Regression         & 0.501009     & 22622720       & 0.001         \\ \hline
+\end{tabular}
+\caption{Comparación de Modelos de Aprendizaje Automático}
+\label{tab:model-comparison}
+\end{table}
+
 
 
 
