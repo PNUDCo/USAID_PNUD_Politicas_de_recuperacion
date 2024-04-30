@@ -33,3 +33,13 @@ Para más detalles sobre la configuración de los modelos y los datos utilizados
 Este texto resume los resultados obtenidos y proporciona una visión general de las implicaciones de las diferencias entre los modelos evaluados. Puedes personalizarlo según tus necesidades y agregar más detalles sobre el análisis y los datos utilizados en tu proyecto.
 
 
+##  RESUTLADOS COMBINANCIONES
+
+
+|        Modelo         |   R^2   |   MSE   | Resultados de Night Lights Index | Resultados de la combinación | Resultados solos  |
+|-----------------------|---------|---------|---------------------------------|-------------------------------|-------------------|
+|     Random Forest     | 0.730885| 87.1692 |              0.72               |           0.730885            |      0.730885     |
+| XGBoost (Hipotético)  | 0.731885| 77.1692 |              0.74               |           0.731885            |      0.731885     |
+|   Ridge Regression    | 0.501009| 22622720|               -                 |               -                |      0.501009     |
+
+
